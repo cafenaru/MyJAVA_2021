@@ -1,5 +1,14 @@
 package icehs.science.chapter02;
-
+/*
+ * Hello World
+ * v. 0.1 by ±¸º´±¹
+ * 2021.05.11 update
+ */
+/**
+ * 
+ * @author user
+ *
+ */
 public class HelloWorld {
 
 	public static void main(String[] args) {
