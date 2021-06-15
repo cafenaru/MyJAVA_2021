@@ -4,7 +4,7 @@ public class Airplane extends Vehicle{
 
 	private int numOfEngine;
 	
-	public (String modelName, int maxSpeed, int numberLimit, int numOfEngine) {
+	public Airplane(String modelName, int maxSpeed, int numberLimit, int numOfEngine) {
 		super(modelName, maxSpeed, numberLimit);
 		this.numOfEngine = numOfEngine;
 	}
