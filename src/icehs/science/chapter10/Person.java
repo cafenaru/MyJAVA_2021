@@ -1,4 +1,4 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Person {
 	private String name;

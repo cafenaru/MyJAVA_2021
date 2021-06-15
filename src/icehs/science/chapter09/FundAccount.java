@@ -16,7 +16,13 @@ public class FundAccount extends Account {
 		this.earningRate = earningRate;
 	}
 
-	
+	@Override
+	public void openAccount() {
+		System.out.println("계좌를 개설합니다.");
+		System.out.println("펀드 계좌 번호 : " + super.getNumber());
+		System.out.println("예금주 : " + super.getName());
+		System.out.println("잔액 : " + super.getBalance() +"원");
+	}
 	
 	
 	

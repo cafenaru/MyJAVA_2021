@@ -25,6 +25,10 @@ public class Animal {
 		System.out.println("달려라!!!");
 	}
 	
+	public void hunt() {
+		
+	}
+	
 	public void printAnimalInfo() {
 		System.out.println("나이 : " + this.age);
 		System.out.println("종류 : " + this.kind);
